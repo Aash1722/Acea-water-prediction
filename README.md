@@ -85,3 +85,58 @@ Each file contains time series data on:
 
 ## 📁 Repository Structure
 
+Acea-water-prediction/
+├── data/ # CSV files for each waterbody
+├── notebooks/ # Jupyter Notebooks for EDA and modeling
+├── src/ # Scripts for data processing, modeling, and evaluation
+│ ├── data_preparation.py
+│ ├── feature_engineering.py
+│ ├── model_training.py
+├── results/ # Graphs, metrics, and residual plots
+├── README.md
+---
+
+## 🌊 Significance
+
+This framework can be used by:
+- **Utility companies** to manage water supply proactively
+- **Environmental scientists** to study drought patterns
+- **Government bodies** to guide policy around water conservation
+
+---
+
+## 📌 Key Libraries Used
+
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn`
+- `scipy.stats`
+- `statsmodels`
+- `KNNImputer`, `RobustScaler`, `RandomForestRegressor`
+
+---
+
+## 📈 Visualizations
+
+The notebook includes:
+- Correlation heatmaps
+- Prediction vs actual plots
+- Residual and regression plots
+- Probability plots and boxplots for model diagnostics
+
+---
+
+## 📎 References
+
+1. [Acea Water Prediction – Kaggle Competition](https://www.kaggle.com/competitions/acea-water-prediction)
+2. Tibshirani, R. (1996). Regression Shrinkage and Selection via the Lasso.
+3. Biau, G. (2012). Analysis of Random Forests Model.
+4. [Acea Group Website](https://www.gruppo.acea.it/en)
+
+---
+
+## 📜 License
+
+This project is for academic and educational purposes only. Reuse requires proper citation.
+
+
+
