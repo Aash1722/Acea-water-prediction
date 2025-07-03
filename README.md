@@ -82,19 +82,19 @@ Each file contains time series data on:
 > Random Forest consistently outperformed Linear Regression in all cases.
 
 ---
-
 ## 📁 Repository Structure
 
+```
 Acea-water-prediction/
-├── data/ # CSV files for each waterbody
-├── notebooks/ # Jupyter Notebooks for EDA and modeling
-├── src/ # Scripts for data processing, modeling, and evaluation
-│ ├── data_preparation.py
-│ ├── feature_engineering.py
-│ ├── model_training.py
-├── results/ # Graphs, metrics, and residual plots
-├── README.md
----
+├── data/                  # CSV files for each waterbody
+├── notebooks/             # Jupyter Notebooks for EDA and modeling
+├── src/                   # Scripts for data processing, modeling, and evaluation
+│   ├── data_preparation.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+├── results/               # Graphs, metrics, and residual plots
+├── README.md              # Project description and instructions
+```
 
 ## 🌊 Significance
 
